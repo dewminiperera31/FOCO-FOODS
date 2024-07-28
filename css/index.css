@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: yellow;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header .navlinks {
+    display: flex;
+    align-items: center;
+   
+
+}
+
+header .navlinks ul li a:hover {
+    color:yellow;
+    text-decoration: none;
+}
+
+header .navlinks ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: 400px;
+    text-size-adjust: 10px;
+}
+
+header .navlinks ul li {
+    margin: 0 15px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+header .navlinks ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .navlinks ul li i,
+header .navlinks ul li button {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.home .content {
+    text-align: center;
+}
+
+.promo-video {
+    width: 100%;
+    height: auto;
+    
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+}
+
+.about .left {
+    flex: 1;
+}
+
+.about .right {
+    flex: 1;
+}
+
+.about .right img {
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*----home-----*/
+
+.home {
+    color: black;
+}
+
+.home img {
+    height: 50vh;
+    width: 80vh;
+}
+
+.home .text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.home .text h1 {
+    font-size: 60px;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.home p {
+    margin: 50px 0;
+    text-align: justify;
+    flex: 1; /* Ensure the paragraph takes available space */
+}
+
+.home button {
+    margin-right: 20px;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/* Flexbox styling */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    flex: 1; /* Ensure the left section takes available space */
+}
+
+.right {
+    flex: 1; /* Ensure the right section takes available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----home-----*/
+
+footer {
+    background-color: #FFBF00; /* Match the background color from the image */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.donate-btn {
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
